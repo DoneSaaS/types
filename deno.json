@@ -1,0 +1,14 @@
+{
+  "name": "@done-saas/types",
+  "version": "0.0.2",
+  "description": "Type definitions for this solution.",
+  "author": "DoneSaaS",
+  "license": "MIT",
+  "tasks": {
+    "check": "deno check ."
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "exports": "./src/index.ts"
+}
