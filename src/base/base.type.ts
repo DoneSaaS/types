@@ -3,7 +3,7 @@ interface BaseModelType {
   createdAt?: Date;
 }
 
-interface BaseDataType extends Omit<BaseModelType, "clientId"> {
+interface BaseDataType extends Omit<BaseModelType, 'clientId'> {
   id?: string;
 }
 
@@ -16,9 +16,4 @@ interface BaseDeletableDataType extends BaseDataType {
   deletedAt?: Date;
 }
 
-export type {
-  BaseDataType,
-  BaseDeletableDataType,
-  BaseModelType,
-  BaseUpdatableDataType,
-};
+export type { BaseDataType, BaseDeletableDataType, BaseModelType, BaseUpdatableDataType };

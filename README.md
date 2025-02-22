@@ -15,7 +15,7 @@ deno install <package-name>
 Import the types into your project as needed:
 
 ```typescript
-import { MyType } from "<package-name>";
+import { MyType } from '<package-name>';
 ```
 
 ## Contributing
