@@ -1,6 +1,6 @@
-# DynamicIdeas Type Definitions
+# DoneSaaS Type Definitions
 
-This package contains type definitions for the DynamicIdeas project. It is designed to be used with Deno.
+This package contains type definitions for the DoneSaaS project.
 
 ## Installation
 
